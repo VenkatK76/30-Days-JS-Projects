@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake on Invalid Input</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <form>
+            <div id="errorMessage" class="error-message" aria-live="assertive">Invalid Input</div>
+            <input type="text" class="input-field" id="inputField" placeholder="Enter some text" required />
+            <button onclick="validateInput(event)" type="submit">Submit</button>
+        </form>
+    </main>    
+    <script src="./index.js"></script>
+</body>
+</html>
